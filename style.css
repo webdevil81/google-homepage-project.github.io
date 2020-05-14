@@ -1,0 +1,158 @@
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* ------------- Top Header Section ------------- */
+
+ul {
+    padding-right: 10px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    
+}
+/* Top Left Links */
+
+.topl {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+/* Top Right Links */
+
+.topr {  
+    float: right;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.topr-sign {  
+    float: right;
+    margin-left: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: #4285F4;
+}
+
+/* ------------- Main Section ------------- */
+
+/* Google Image */
+.google-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.google-img {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+}
+/*
+Search Bar Section
+*/
+.search-bar-conatiner {
+    text-align: center;
+}
+
+.search-bar {
+    padding: 13px;
+    border: 1px solid #E7E8EB;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 550px;
+}
+
+
+/* Search Button Section */
+
+.buttons-container {
+    display: flex;
+}
+
+.search-btns {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.myButton {
+	background-color:#F4F4F4;
+	border-radius:6px;
+	border:1px solid #F4F4F4;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:13px;
+	padding:10px 14px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    margin: 0px 5px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Premium Video Link */
+
+.prem-vid {
+    display: flex;
+}
+
+.prem-vid-link {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+/* Language Selector */
+
+.lang {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* -------------- Footer ----------------*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F4F4F4;  
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E4E4E4;
+}
+
+.footl {
+    padding-left: 27px;
+    color: #5f6368;
+    font-size: small;
+}
+
+.footr {
+    padding-left: 27px;
+    color: #5f6368;
+    font-size: small;
+    float: right;
+}

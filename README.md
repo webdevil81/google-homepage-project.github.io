@@ -1,1 +1,1 @@
-# google-homepage-project.github.io
+Deconstruct google search page and rebuild it for the web development 101 html/css project
